@@ -1,0 +1,15 @@
+git init = Initializing the git repository
+git status = to check if the new files are added or not 
+git add . = tracks all the changes rather than adding files one by one 
+git commit -m "Initial commit" = to commit the changes ( -m = Message we wanna give in double quotation " " )
+git checkout commitnumber(c6a30d934a7fea34738da9f91407438b3bae9552 (unique commit id )) = to old code (Time travel)
+git checkout master ( to return to master) 
+git log (hit q to exit)
+
+
+Git Remote Commands
+
+git remote add origin (url)
+gir remote -v
+git push origin master
+git pull origin master
